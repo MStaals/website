@@ -1,0 +1,106 @@
+body
+{
+    background-color: #1a1a1a;
+    color: white !important; 
+}
+nav
+{
+    background-color: black !important;
+    position: fixed;
+    z-index: 1;
+}
+.navlink
+{
+    color: white !important;
+    font-family: Open Sans;
+    font-size: 17px ;
+}
+.navlink:hover
+{
+    text-decoration: underline;
+    
+}
+#QuadiraLogo
+{
+    width: 100px;
+    float: left;
+}
+#slider
+{
+    margin-top: 100px;
+    overflow: hidden;
+}
+#slider figure
+{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation : 20s slider infinite;
+}
+#slider figure img
+{
+    width: 20%;
+    float: left;
+    height: 570px;
+}
+@keyframes slider
+{
+    0%{
+        left: 0%;
+    }
+    20%{
+        left: 0%;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+article
+{
+    width: 470px;
+    height: auto;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+h2
+{
+    color: green !important;
+    font-size: 25px !important;
+}
+h3
+{
+    margin-top: 120px;
+}
+footer
+{
+    background-color: black !important;
+    height: 100px;
+    position: absolute !important;
+    bottom: -100% !important;
+}
+#footerimage
+{
+    float: left;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 40px;
+}

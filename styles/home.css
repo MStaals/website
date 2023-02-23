@@ -1,0 +1,39 @@
+/*
+Auteur: Max Staals
+Aanmaakdatum: 7-1-2021
+*/
+body
+{
+    /*background immage styling*/
+  background-image: url(../afbeeldingen/3d-perspective-style-diamond-shape-white-background_1017-2755.jpg); 
+  background-size: 100%;
+}
+div
+{
+    /*styling van de tekst: Junior software developer*/
+    font-size: 22px; /*font size 22px*/
+    color: white;
+    text-align: center; /* zorgt ervoor dat de tekst in het midden word gezet*/
+}
+figure
+{
+    /*styling van de figure*/
+    position: relative;
+    left:300px;
+    top: 30px;
+    margin: 0px;
+    width: 200px;
+}
+#geslaagd
+{
+    width: 250px;
+}
+article
+{
+    /*styling van de article*/
+    position: relative;
+    width: 600px;
+    height: 480px;
+    top: 10px;
+    left: 30%;
+}

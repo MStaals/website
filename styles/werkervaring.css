@@ -1,0 +1,50 @@
+/*
+Auteur: Max Staals
+Aanmaakdatum: 7-1-2021
+*/
+body
+{
+    /*background immage styling*/
+  background-image: url(../afbeeldingen/3d-perspective-style-diamond-shape-white-background_1017-2755.jpg); 
+  background-size: 100%;
+}
+figure /* styling van de figure*/
+{
+    position: relative;
+    left:350px;
+    margin: 0px;
+    top: 60px;
+}
+#jumbo
+{
+    position: relative;
+    width: 300px;
+    left: 50px;
+}
+#fcDenBosch
+{
+    width: 200px;
+    position: relative;
+    top: 130px;
+    right: 200px;
+}
+#stage
+{
+    width: 200px;
+    position: relative;
+    top: 350px;
+    right: 390px;
+}
+article /* styling van de article*/
+{
+    position: relative;
+    width: 470px;
+    height: auto;
+    top: 30px;
+    left: 200px;
+}
+h3
+{
+    margin-top: 30px;
+}
+

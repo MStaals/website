@@ -1,0 +1,59 @@
+<!doctype html>
+<!--
+Auteur: Max Staals
+Aanmaakdatum: 7-1-2021
+-->
+<html>
+    <head>
+        <title>
+            Website Portfolio
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="styles/cv.css">
+        <link rel="stylesheet" href="styles/stylesheet.css">
+        <!-- Scripts -->
+        <script src="scripts/script.js/" defer></script>
+    </head>
+    <body>
+    <header>
+            <!-- logo -->
+            <a class="navlink" href="index.html">
+                <img id="logo" src="afbeeldingen/logo.png" alt="">
+            </a>
+            <!-- navigatie balk -->
+            <nav> 
+                <ul>
+                    <li class="menu">
+                        <a class="navlink" href="index.html">Home</a>
+                    </li>
+                    <li class="menu">
+                        <a class="navlink" href="werkervaring.html">Werkervaring </a>
+                    </li>
+                    <li class="menu">
+                        <a class="navlink" href="Hobby's.html">Hobby's</a>
+                    </li>
+                    <li class="menu">
+                        <a class="navlink" href="cv.html">Curriculum Vitae</a>
+                    </li>
+                    <li class="menu">
+                        <a class="navlink" href="Quadira.html">Quadira</a>
+                    </li>
+                </ul>
+            </nav>
+     </header>
+        <main>
+            <!-- zorgt ervoor dat ik een pdf in mijn website in kan laden -->
+            <object id= "pdf" data="pdfs/Curriculum vitae.pdf "type="application/pdf">
+        <embed src="pdfs/Curriculum vitae.pdf" type="application/pdf" />
+    </object>
+            
+        </main>
+         <!-- footer -->
+        <footer>
+           Koning Willem I college &copy;
+        </footer> 
+    </body>
+    
+</html>

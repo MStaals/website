@@ -1,0 +1,97 @@
+/*
+Auteur: Max Staals
+Aanmaakdatum: 7-1-2021
+*/
+body,ul
+{
+    margin:0px; /*past de margin aan naar 0*/
+    padding:0px;/*past de padding aan naar 0*/
+    font-family: "Sans serif"; /*tekst type aanspreken*/
+    color: black;
+    font-size: 16px; /* automatische fontgroote van 16px*/
+    
+}
+@font-face /*tekst type Sans serif*/
+{
+    font-family: "Sans serif"; 
+    src: url(../fonts/SansSerifFLF.ot);
+}
+    
+.navlink /* navigatie balk style voor id navlink(a)*/
+{
+    text-decoration: none;
+    color:gray;
+    display: block; /* display block*/
+    width: 120px;
+}
+a:hover
+{
+    color: blue;
+    cursor: pointer;
+}
+.menu
+{
+    margin: 1px;
+    float: left;
+}
+
+section>*
+{
+    float: left /* verplaatst naar links*/
+}
+#logo 
+{
+    float:left; 
+    width: 80px;
+    position: absolute; /* neemt geen ruimte meer in beslag*/
+}
+nav /* styling voor navigatie balk*/
+{
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    height: 90px;
+    width: 100%;
+}
+ul
+{
+    list-style: none; /* geen list style*/
+    margin-top: 20px;
+    display:inline-block; /* display inline block*/
+    width:70%;
+}
+
+ul>li a /* kind en afstammeling selector gecombineerd*/
+{
+    text-decoration: none;
+}
+
+a
+{
+    text-decoration: none;
+    padding: 2px;
+    color: black;
+}
+h1
+{
+    width: 100%;
+    background-color: #2D48FA;
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-size: 30px; /* fontsize voor op h1 is automatisch nu 30px*/
+}
+h2
+{
+    font-size: 22px; /* fontsize voor op h2 is automatisch nu 22px*/
+    color: blue;
+}
+footer /* styling footer */
+{
+    background-color: blue;
+    text-align: center;
+    color: white;
+    position:fixed; /* zorgt ervoor dat die altijd aan de onderkant van de pagina blijft staan*/ 
+    bottom: 0;
+    width: 100%;
+}
