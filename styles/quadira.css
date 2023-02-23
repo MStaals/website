@@ -43,6 +43,7 @@ nav
     width: 20%;
     float: left;
     height: 570px;
+    object-fit: cover;
 }
 @keyframes slider
 {
