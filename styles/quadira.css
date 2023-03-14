@@ -20,7 +20,7 @@ nav
     text-decoration: underline;
     
 }
-#QuadiraLogo
+#quadiralogo
 {
     width: 100px;
     float: left;
@@ -77,26 +77,48 @@ nav
 }
 article
 {
-    width: 470px;
+    width: 570px;
     height: auto;
     margin-left: 250px;
     margin-top: 100px;
+}
+#figure-mini-forms
+{
+    position: relative;
+    bottom: 150px;
+}
+#mini-forms
+{
+    padding-left: 600px;
+    width: 550px;
+}
+#advanced-forms
+{
+    padding-left: 610px;
+    padding-bottom: 100px;
+    width: 500px;
+}
+#figure-advanced-forms
+{
+    position: relative;
+    bottom: 100px;
 }
 h2
 {
     color: green !important;
     font-size: 25px !important;
+    margin-bottom: 50px;
 }
-h3
+#header
 {
-    margin-top: 120px;
+    margin-top: 100px;
 }
 footer
 {
     background-color: black !important;
     height: 100px;
     position: absolute !important;
-    bottom: -100% !important;
+    bottom: -200% !important;
 }
 #footerimage
 {
