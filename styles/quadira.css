@@ -86,32 +86,42 @@ article
 {
     position: relative;
     bottom: 150px;
+    left: 600px;
 }
 #mini-forms
 {
-    padding-left: 600px;
+    padding-left: 0px;
     width: 550px;
+}
+#advancedforms-link
+{
+    color: green !important;
 }
 #advanced-forms
 {
-    padding-left: 610px;
-    padding-bottom: 100px;
+    
+    padding-bottom: 0px;
     width: 500px;
 }
 #figure-advanced-forms
 {
     position: relative;
     bottom: 150px;
+    left: 610px;
 }
 #figure-customer-portal
 {
     position: relative;
-    bottom: 100px;
+    bottom: 150px;
+    left: 610px;
 }
 #customer-portal
 {
     width: 550px;
-    padding-left: 610px;
+}
+#customerportal
+{
+    margin-top: 0px;
 }
 
 h2
